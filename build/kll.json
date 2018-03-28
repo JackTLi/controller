@@ -1,0 +1,296 @@
+{
+    "AnimationIds": {},
+    "AnimationSettings": {},
+    "AnimationSettingsIndex": [],
+    "Capabilities": {
+        "consCtrlOut": {
+            "args": [
+                {
+                    "name": "consCode",
+                    "width": 2
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_Safe",
+            "index": 7,
+            "name": "Output_consCtrlSend_capability"
+        },
+        "flashMode": {
+            "args": [],
+            "args_count": 0,
+            "features": "CapabilityFeature_Safe",
+            "index": 8,
+            "name": "Output_flashMode_capability"
+        },
+        "kbdProtocolBoot": {
+            "args": [],
+            "args_count": 0,
+            "features": "CapabilityFeature_None",
+            "index": 9,
+            "name": "Output_kbdProtocolBoot_capability"
+        },
+        "kbdProtocolNKRO": {
+            "args": [],
+            "args_count": 0,
+            "features": "CapabilityFeature_None",
+            "index": 10,
+            "name": "Output_kbdProtocolNKRO_capability"
+        },
+        "layerLatch": {
+            "args": [
+                {
+                    "name": "layer",
+                    "width": 2
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_Safe",
+            "index": 0,
+            "name": "Layer_layerLatch_capability"
+        },
+        "layerLock": {
+            "args": [
+                {
+                    "name": "layer",
+                    "width": 2
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_Safe",
+            "index": 1,
+            "name": "Layer_layerLock_capability"
+        },
+        "layerRotate": {
+            "args": [
+                {
+                    "name": "previous",
+                    "width": 1
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_Safe",
+            "index": 2,
+            "name": "Layer_layerRotate_capability"
+        },
+        "layerShift": {
+            "args": [
+                {
+                    "name": "layer",
+                    "width": 2
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_Safe",
+            "index": 3,
+            "name": "Layer_layerShift_capability"
+        },
+        "layerState": {
+            "args": [
+                {
+                    "name": "layer",
+                    "width": 2
+                },
+                {
+                    "name": "state",
+                    "width": 1
+                }
+            ],
+            "args_count": 2,
+            "features": "CapabilityFeature_Safe",
+            "index": 4,
+            "name": "Layer_layerState_capability"
+        },
+        "mouseOut": {
+            "args": [
+                {
+                    "name": "mouseCode",
+                    "width": 2
+                },
+                {
+                    "name": "relative_x",
+                    "width": 2
+                },
+                {
+                    "name": "relative_y",
+                    "width": 2
+                }
+            ],
+            "args_count": 3,
+            "features": "CapabilityFeature_Safe",
+            "index": 15,
+            "name": "Output_usbMouse_capability"
+        },
+        "noneOut": {
+            "args": [],
+            "args_count": 0,
+            "features": "CapabilityFeature_Safe",
+            "index": 11,
+            "name": "Output_noneSend_capability"
+        },
+        "sysCtrlOut": {
+            "args": [
+                {
+                    "name": "sysCode",
+                    "width": 1
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_Safe",
+            "index": 12,
+            "name": "Output_sysCtrlSend_capability"
+        },
+        "testThreadSafe": {
+            "args": [],
+            "args_count": 0,
+            "features": "CapabilityFeature_Safe",
+            "index": 5,
+            "name": "Macro_testThreadSafe_capability"
+        },
+        "testThreadUnsafe": {
+            "args": [],
+            "args_count": 0,
+            "features": "CapabilityFeature_None",
+            "index": 6,
+            "name": "Macro_testThreadUnsafe_capability"
+        },
+        "toggleKbdProtocol": {
+            "args": [],
+            "args_count": 0,
+            "features": "CapabilityFeature_None",
+            "index": 13,
+            "name": "Output_toggleKbdProtocol_capability"
+        },
+        "usbKeyOut": {
+            "args": [
+                {
+                    "name": "usbCode",
+                    "width": 1
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_Safe",
+            "index": 14,
+            "name": "Output_usbCodeSend_capability"
+        }
+    },
+    "CodeLookup": {
+        "Animation": "animationIndex",
+        "Capability": null,
+        "ConsCode": "consCtrlOut",
+        "ScanCode": null,
+        "SysCode": "sysCtrlOut",
+        "USBCode": "usbKeyOut"
+    },
+    "Defines": {
+        "DelayedCapabilitiesStackSize": {
+            "name": "ResultCapabilityStackSize_define",
+            "value": "10"
+        },
+        "MinDebounceTime": {
+            "name": "MinDebounceTime_define",
+            "value": "6"
+        },
+        "Output_HIDIOEnabled": {
+            "name": "Output_HIDIOEnabled_define",
+            "value": "1"
+        },
+        "Output_USBEnabled": {
+            "name": "Output_USBEnabled_define",
+            "value": "1"
+        },
+        "PeriodicCycles": {
+            "name": "PeriodicCycles_define",
+            "value": "1000"
+        },
+        "PressReleaseCache": {
+            "name": "PressReleaseCache_define",
+            "value": "1"
+        },
+        "ResultMacroBufferSize": {
+            "name": "ResultMacroBufferSize_define",
+            "value": "50"
+        },
+        "StrobeDelay": {
+            "name": "StrobeDelay_define",
+            "value": "0"
+        },
+        "enableDeviceRestartOnUSBTimeout": {
+            "name": "enableDeviceRestartOnUSBTimeout_define",
+            "value": "0"
+        },
+        "enableJoystick": {
+            "name": "enableJoystick_define",
+            "value": "0"
+        },
+        "enableKeyboard": {
+            "name": "enableKeyboard_define",
+            "value": "1"
+        },
+        "enableMouse": {
+            "name": "enableMouse_define",
+            "value": "1"
+        },
+        "enableRawIO": {
+            "name": "enableRawIO_define",
+            "value": "1"
+        },
+        "enableUSBLowPowerNegotiation": {
+            "name": "enableUSBLowPowerNegotiation_define",
+            "value": "0"
+        },
+        "enableUSBResume": {
+            "name": "enableUSBResume_define",
+            "value": "1"
+        },
+        "enableUSBSuspend": {
+            "name": "enableUSBSuspend_define",
+            "value": "1"
+        },
+        "enableVirtualSerialPort": {
+            "name": "enableVirtualSerialPort_define",
+            "value": "1"
+        },
+        "flashModeEnabled": {
+            "name": "flashModeEnabled_define",
+            "value": "0"
+        },
+        "indexWordSize": {
+            "name": "IndexWordSize_define",
+            "value": "16"
+        },
+        "keyboardLocale": {
+            "name": "KeyboardLocale_define",
+            "value": "0"
+        },
+        "latencyResources": {
+            "name": "LatencyMeasurementCount_define",
+            "value": "8"
+        },
+        "secureBootloaderEnabled": {
+            "name": "SecureBootloader_define",
+            "value": "0"
+        },
+        "stateWordSize": {
+            "name": "StateWordSize_define",
+            "value": "16"
+        },
+        "usbIdle": {
+            "name": "USBIdle_define",
+            "value": "0"
+        },
+        "usbIdleForce": {
+            "name": "USBIdle_force_define",
+            "value": "1"
+        },
+        "usbProtocol": {
+            "name": "USBProtocol_define",
+            "value": "1"
+        }
+    },
+    "Layers": {
+        "0": {},
+        "1": {}
+    },
+    "PixelIds": {},
+    "ScanCodes": {}
+}
